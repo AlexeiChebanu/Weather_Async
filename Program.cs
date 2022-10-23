@@ -88,7 +88,9 @@ public class Weather
 
 public class Wind
 {
-    public double speed { get; set; }
+    public double speed { get; set; }//every class should have an Id field, something like Wind Id or just Id etc. It will be primary key
     public int deg { get; set; }
     public double gust { get; set; }
 }
+
+//checked
